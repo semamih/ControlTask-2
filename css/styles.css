@@ -3,7 +3,7 @@
     margin: 0;
 }
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, serif;
 }
 .main {
     background-image: url("../images/bg.png");
@@ -16,11 +16,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-}
-
-.line {
-    border: 1px solid #fff;
-    opacity: 0.2;
 }
 .container {
     max-width: 1200px;
@@ -39,6 +34,7 @@ button {
 
 .header {
     padding: 35px 0 33px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
 }
 .menu {
     display: inline-block;
@@ -87,17 +83,22 @@ button {
 /* skills */
 
 .skills {
-    padding: 140px 0;
+    padding-top: 140px;
+    padding-bottom: 140px;
 }
 .star {
     float: left;
     margin-right: 14px;
+    margin-top: 4px;
 }
 .skills-title {
     margin-bottom: 68px;
     font-size: 35px;
     color: rgb(139, 103, 214);
     font-weight: bold;
+}
+.skills ul {
+    list-style: none;
 }
 .skills-item {
     margin-bottom: 15px;
@@ -119,7 +120,7 @@ button {
 .details-container {
     max-width: 996px;
     margin: 0 auto;
-    padding: 60px 0 44px 0;
+    padding: 60px 20px 44px 20px;
     border-radius: 20px;
     background-color: rgb(255, 255, 255);
     text-align: center;
@@ -159,6 +160,7 @@ button {
 .footer {
     text-align: center;
     padding: 46px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
 }
 .footer-logo {
     margin: 0;
